@@ -7,7 +7,7 @@ function NavBar() {
 
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Prashil</span>
+      <span className="text-xl font-bold tracking-wide">Prashil Prakash</span>
       <ul
         className={`${menu ? "block" : "hidden"}     mx-24 py-2 mt-4 font-semibold md:mt-5 bg-black-500/30 px-2 rounded-xl md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex md:gap-6`}
       >

@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/Banner.png";
 
 const ProjectCard = ({ title,main }) => {
   return (

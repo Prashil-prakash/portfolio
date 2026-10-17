@@ -1,7 +1,7 @@
 export const ProjectData = [
   {
     id: 1,
-    title: "Porfolio",
+    title: "Portfolio",
     main: "A sleek, responsive developer portfolio showcasing interactive frontend designs with optimized React state workflows and smooth layout styling.",
     demoLink: "",
     sourceLink: "https://github.com/Prashil-prakash/portfolio",

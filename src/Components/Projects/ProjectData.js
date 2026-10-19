@@ -28,11 +28,12 @@ export const ProjectData = [
     demoLink: "https://prashil-prakash.github.io/myntra-clone-study-project/",
     sourceLink: "https://github.com/Prashil-prakash/myntra-clone-study-project",
   },
-  {
+   {
     id: 5,
     title: "Todo App",
     main: "A minimalist React + Vite task management app built with native React state, custom CSS Modules, structural component workflows, and smooth empty-state layouts.",
     demoLink: "https://todoapp-13x8.vercel.app/",
     sourceLink: "https://github.com/Prashil-prakash/Todo-App",
   },
+  
 ];

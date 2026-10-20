@@ -31,7 +31,7 @@ export const ProjectData = [
    {
     id: 5,
     title: "Todo App",
-    main: "A minimalist React + Vite task management app built with native React state, custom CSS Modules, structural component workflows, and smooth empty-state layouts.",
+    main: "A sleek, responsive task management dashboard built using React 19, Vite 7, and TypeScript. Fully migrated from a legacy JavaScript and Bootstrap setup, it features a modern Tailwind CSS v4 design, custom @custom-variant dark mode logic, and input validation with interactive micro-animations.",
     demoLink: "https://todoapp-13x8.vercel.app/",
     sourceLink: "https://github.com/Prashil-prakash/Todo-App",
   },

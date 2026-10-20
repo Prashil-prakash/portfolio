@@ -1,16 +1,58 @@
-# React + Vite
+# 👨‍💻 My Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern, and fully responsive **Developer Portfolio Website** built to showcase my software engineering background, core technical capabilities, and production-ready applications. 
 
-Currently, two official plugins are available:
+### 🌐 Live Showcase Link
+[![Live Portfolio](https://shields.io)](https://prashilprakash-portfolio.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 Click here to test it live: **[prashilprakash-portfolio.vercel.app](https://prashilprakash-portfolio.vercel.app/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Key Features
 
-## Expanding the ESLint configuration
+* **Component-Driven Architecture:** Built completely with modular React.js components for clean layouts and reusable code workflows.
+* **Utility-First Styling:** Styled entirely with Tailwind CSS, utilizing responsive utility layout classes and fluid grid metrics.
+* **Interactive Project Grid:** Features dynamic project cards with seamless cross-linking to live staging environments and source code repositories.
+* **Responsive Layout:** Pixel-perfect optimization across smartphones, tablets, laptops, and wide desktop viewports.
+* **Tactile Micro-Interactions:** Includes smooth hover transitions, click responses, and crisp font tracking.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+* **React.js** - Component UI framework and interactive state manager.
+* **Tailwind CSS** - Modern utility-first CSS styling engine.
+* **React Icons** - Vector iconography modules.
+* **Vite** - High-performance local development server and bundler.
+
+---
+
+## 📦 Projects Featured Inside This Portfolio
+
+### 1. Modern Todo Application Dashboard
+A sleek, responsive task engine built to replace legacy styling frameworks with clean, custom utility rules.
+* **Tech Stack:** React.js, Tailwind CSS, React Icons
+* **Core Logic:** Advanced root-level dark mode toggle matrix, custom asset overrides, live input verification layout guards, and a fluid 12-column form strip grid.
+* **Staging Link:** [⚡ Live Staging Demo](https://todoapp-13x8.vercel.app/)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone & Install Dependencies
+```bash
+git clone https://github.com
+cd your-portfolio-repo
+npm install
+```
+
+### 2. Launch Local Development Server
+```bash
+npm run dev
+```
+
+### 3. Generate Production Build Assets
+```bash
+npm run build
+```

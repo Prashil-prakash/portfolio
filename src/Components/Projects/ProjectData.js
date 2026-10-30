@@ -10,7 +10,7 @@ export const ProjectData = [
     id: 2,
     title: "Weather App",
     main: "A dynamic frontend weather discovery application built with React and JavaScript featuring an interactive, real-time city search engine and a live forecast layout powered by the OpenWeather API.",
-    demoLink: "https://weather-app-rouge-six-24.vercel.app/",
+    demoLink: "https://weather-p72qmo686-prashil.vercel.app/",
     sourceLink: "https://github.com/Prashil-prakash/weather-app",
   },
 

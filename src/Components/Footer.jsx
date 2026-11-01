@@ -7,29 +7,29 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="flex justify-around bg-linear-to-b from-[#080808] to-[#ff4b32] text-white p-10 md:p-12 items-center
+      className="flex justify-around bg-linear-to-b from-[#090d16] via-[#0b1120] to-[#0d1627] border-t border-slate-800/80 text-white p-10 md:p-12 items-center
       max-md:flex-col max-md:items-start max-md:gap-5 max-md:px-6 max-md:py-8"
     >
       <div className="max-md:w-full">
-        <h1 className="text-2xl md:text-6xl font-bold max-md:mb-1">contacts</h1>
-        <h3 className="text-2xl md:text-2xl font-normal max-md:text-lg ">
+        <h1 className="text-2xl md:text-6xl font-bold max-md:mb-1 text-cyan-400">contacts</h1>
+        <h3 className="text-2xl md:text-2xl font-normal max-md:text-lg text-slate-300">
           Feel free to reach out!
         </h3>
       </div>
       <ul className="text-sm md:text-xl max-md:w-full max-md:space-y-3">
-        <li className="flex gap-2 items-center max-md:break-all"><MdOutlineEmail size={20} className="shrink-0"/><a
+        <li className="flex gap-2 items-center max-md:break-all"><MdOutlineEmail size={20} className="shrink-0 text-cyan-400"/><a
     href="https://mail.google.com/mail/?view=cm&fs=1&to=prashilprakash288@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="min-w-0 break-all cursor-pointer hover:text-gray-300 hover:underline transition-colors"
+    className="min-w-0 break-all cursor-pointer text-slate-300 hover:text-cyan-300 hover:underline transition-colors"
   >
     prashilprakash288@gmail.com
   </a></li>
-        <li className="flex gap-1 items-center"><FaGithub size={20} className="shrink-0"/><a
+        <li className="flex gap-1 items-center"><FaGithub size={20} className="shrink-0 text-cyan-400"/><a
             href="https://github.com/Prashil-prakash"
             target="_blank"
             rel="noopener noreferrer"
-            className="min-w-0 break-all cursor-pointer hover:text-gray-300 hover:underline transition-colors"
+            className="min-w-0 break-all cursor-pointer text-slate-300 hover:text-cyan-300 hover:underline transition-colors"
           >
             github.com/Prashil-prakash
           </a></li>

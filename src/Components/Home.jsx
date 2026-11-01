@@ -18,11 +18,11 @@ function Home() {
           
           md:min-h-36 md:text-6xl"
         >
-          <div className="text-[#CDCBCA]">Hi, I'm</div><span></span><TextChange />
+          <div className="text-slate-300">Hi, I'm</div><span></span><TextChange />
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed
-          text-[#CDCBCA] md:mx-0 md:text-xl">
+          text-slate-400 md:mx-0 md:text-xl">
           I'm a passionate developer specializing in creating
           immersive web experiences.
         </p>
@@ -32,12 +32,12 @@ function Home() {
             href={myCv}
             download="Prashil_Prakash_CV.pdf"
             className="inline-flex items-center justify-center
-            rounded-full border border-[#D41514] bg-[#080808]
-            px-7 py-3 font-semibold text-[#CDCBCA]
+            rounded-full border border-cyan-500/40 bg-slate-900/80
+            px-7 py-3 font-semibold text-cyan-300
             transition-all duration-300
-            hover:scale-105 hover:border-sky-300
-            hover:bg-sky-400/20
-            hover:shadow-[0_0_25px_rgba(56,189,248,0.35)]"
+            hover:scale-105 hover:border-cyan-400
+            hover:bg-cyan-500/20 hover:text-white
+            hover:shadow-[0_0_30px_rgba(6,182,212,0.35)]"
           >
             Download CV
             <span className="ml-2 transition-transform duration-300
@@ -52,7 +52,7 @@ function Home() {
       <div className="relative flex w-full items-center justify-center
         md:w-1/2">
         <div className="absolute h-56 w-56 rounded-full
-          bg-[#D41514] blur-3xl md:h-80 md:w-80" />
+          bg-cyan-500/25 blur-3xl md:h-80 md:w-80" />
 
         <img
           src={avatarImg}

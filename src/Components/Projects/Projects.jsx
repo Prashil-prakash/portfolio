@@ -4,12 +4,12 @@ import { ProjectData } from "./ProjectData";
 
 function Projects() {
   return (
-    <div id="Projects" className=" p-10 md:p-24 text-white">
-      <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
+    <div id="Projects" className=" p-10 md:p-24 text-slate-300">
+      <h1 className="text-2xl md:text-4xl text-cyan-400 font-bold">Projects</h1>
       <div className="py-12 flex flex-wrap gap-8 justify-center items-stretch max-w-6xl mx-auto w-full">
-       {ProjectData.map((project) => (
+        {ProjectData.map((project) => (
           <ProjectCard
-            key={project.id} 
+            key={project.id}
             title={project.title}
             main={project.main}
             demoLink={project.demoLink}

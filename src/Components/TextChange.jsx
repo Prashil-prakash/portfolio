@@ -37,7 +37,7 @@ function TextChange() {
   }, [endvalue, isForaward, index]);
 
   return (
-    <div className=" text-[#D41514] transition ease duration-300 inline-block min-h-[1.2em]">
+    <div className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.35)] transition ease duration-300 inline-block min-h-[1.2em]">
       {currentText}
       <span className="animate-pulse font-light ml-0.5">|</span>
     </div>

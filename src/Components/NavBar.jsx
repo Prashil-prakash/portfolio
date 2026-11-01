@@ -4,13 +4,13 @@ import React, { useState } from "react";
 function NavBar() {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
-  const navLinkStyle=" relative py-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#D41514] after:transition-all after:duration-300 hover:after:w-full text-[#CDCBCA]"
+  const navLinkStyle = " relative py-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-cyan-400 after:transition-all after:duration-300 hover:after:w-full text-slate-300 hover:text-white transition-colors duration-300"
 
   return (
-    <nav className="flex flex-wrap justify-between md:items-center text-[#CDCBCA] px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Prashil Prakash</span>
+    <nav className="flex flex-wrap justify-between md:items-center text-slate-200 px-10 pt-6 md:px-20">
+      <span className="text-xl font-bold tracking-wide text-white">Prashil Prakash</span>
       <ul
-        className={`${menu ? "block" : "hidden"}     mx-24 py-2 mt-4 font-semibold md:mt-5 bg-black-500/30 px-2 rounded-xl md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex md:gap-6`}
+        className={`${menu ? "block" : "hidden"}     mx-24 py-2 mt-4 font-semibold md:mt-5 bg-slate-900/90 border border-slate-800 px-2 rounded-xl md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex md:gap-6`}
       >
         <a href="#About">
           <li className={navLinkStyle}>
@@ -22,18 +22,18 @@ function NavBar() {
             Projects
           </li>
         </a>
-        
+
         <a href="#footer">
           <li className={navLinkStyle}>
             Contacts
           </li>
         </a>
-        
+
       </ul>
       {showMenu ? (
         <RiMenu2Line
           size={30}
-          className="md:hidden absolute right-10 top-6 transition-all duration-300"
+          className="md:hidden absolute right-10 top-6 transition-all duration-300 text-slate-200 hover:text-cyan-400 cursor-pointer"
           onClick={() => {
             openMenu(!menu);
             setShowMenu(!showMenu);
@@ -42,7 +42,7 @@ function NavBar() {
       ) : (
         <RiCloseLine
           size={30}
-          className="md:hidden absolute right-10 top-6 transition-all duration-300"
+          className="md:hidden absolute right-10 top-6 transition-all duration-300 text-slate-200 hover:text-cyan-400 cursor-pointer"
           onClick={() => {
             openMenu(!menu);
             setShowMenu(!showMenu);

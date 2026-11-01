@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const texts = [
-  "prashil prakash",
-  "prashil prakash",
-  "prashil prakash",
+  "Hi, I'm Prashil prakash",
+  "Hi, I'm Prashil prakash",
+  "Hi, I'm Prashil prakash",
 ];
 
 function TextChange() {

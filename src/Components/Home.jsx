@@ -18,7 +18,7 @@ function Home() {
           
           md:min-h-36 md:text-6xl"
         >
-          <div className="text-slate-300">Hi, I'm</div><span></span><TextChange />
+          <TextChange />
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed

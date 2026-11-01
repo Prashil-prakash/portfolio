@@ -2,9 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const texts = [
-  "Hi, I'm prashil prakash",
-  "Hi, I'm prashil prakash",
-  "Hi, I'm prashil prakash",
+  "prashil prakash",
+  "prashil prakash",
+  "prashil prakash",
 ];
 
 function TextChange() {
@@ -37,7 +37,7 @@ function TextChange() {
   }, [endvalue, isForaward, index]);
 
   return (
-    <div className="transition ease duration-300 inline-block min-h-[1.2em]">
+    <div className=" text-[#D41514] transition ease duration-300 inline-block min-h-[1.2em]">
       {currentText}
       <span className="animate-pulse font-light ml-0.5">|</span>
     </div>

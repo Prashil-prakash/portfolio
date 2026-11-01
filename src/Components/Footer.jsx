@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center
+      className="flex justify-around bg-linear-to-b from-[#080808] to-[#ff4b32] text-white p-10 md:p-12 items-center
       max-md:flex-col max-md:items-start max-md:gap-5 max-md:px-6 max-md:py-8"
     >
       <div className="max-md:w-full">
